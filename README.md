@@ -2,7 +2,7 @@
 
 ## Bugs Found
 ### 1) _emailAddress.replaceAll(".", "/");_
-The program was replacing all the characters in the string due to the _.replaceAll_ method. To fix it we just change the parameters to _("\\.", "/").
+The program was replacing all the characters in the string due to the _.replaceAll_ method. To fix it we just change the parameters to _("\\.", "/")_.
 
 ### 2) _random.nextInt(2)_
 The parameter bound in _random.nextInt(2)_ does not include 2, to fix we change the bound to 3 _random.nextInt(3)_.
